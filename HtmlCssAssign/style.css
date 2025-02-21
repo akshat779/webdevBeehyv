@@ -11,17 +11,20 @@
     background-size: cover;
     background-size:cover;
     border: 1px solid black;
-    width:100vw;
-    height: 100vh;
+    width:inherit;
+    height: 99vh;
+    border: 1px solid white;
 }
 
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    flex-direction: column;
     width: 100vw;
     height:inherit;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* border: 2px solid green; */
 }
 
 #heading{
@@ -29,5 +32,23 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 3rem;
+    gap: 2.2rem;
+    /* border: 2px solid red; */
+}
+
+.heading-text{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* #icon{
+ 
+} */
+
+.iconImg{
+    width: 4rem;
+    height: 4   rem;
 }
